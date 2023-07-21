@@ -1,0 +1,381 @@
+/** @format */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+.about_hero {
+  background-color: #ebebeb;
+  padding: 4rem 6rem;
+}
+.hero_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  color: #565656;
+}
+.abtCont {
+  width: 60vw;
+}
+.welcome {
+  font-size: 1.5rem;
+  font-size: 100;
+}
+.para {
+  font-size: 1.1rem;
+  font-size: 200;
+}
+.bold {
+  font-weight: 700;
+}
+.connectCont {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #565656;
+}
+.contcatCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactSVG {
+  padding-right: 2rem;
+}
+.emailCall {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.call {
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.dnldSVG {
+  height: 2rem;
+}
+
+.dnldbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #565656;
+  border: solid 0.09rem;
+  padding: 1.2rem;
+}
+
+.dnldSVG {
+  padding-right: 1rem;
+}
+
+/* experience */
+
+.experience {
+  background-color: #272727;
+  margin: 0;
+  padding: 2rem 2rem;
+}
+.exCont {
+  padding: 1rem 18vw;
+  color: #e0e0e0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.exCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #e0e0e0;
+  padding: 2rem 10rem;
+}
+.card1 {
+  background-color: #2e2e2e;
+  width: 20vw;
+  height: 50vh;
+  margin: 1rem;
+}
+.innercard1 {
+  background-image: url(./Assets/Patern\ 1.svg);
+  background-color: #2e2e2e;
+  width: 16.2vw;
+  height: 42.4vh;
+  margin: 1rem;
+  border: solid 0.1rem #3e3e3e;
+  padding: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtitle1 {
+  font-size: 1rem;
+}
+.subtitle1 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.cardCont1 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.years1 {
+  font-size: 1rem;
+  border: solid 0.1rem #3e3e3e;
+  padding: 1rem;
+  background-color: #2e2e2e;
+}
+.card2 {
+  background-color: #2e2e2e;
+  width: 20vw;
+  height: 50vh;
+  margin: 1rem;
+}
+.innercard2 {
+  background-image: url(./Assets/Patern\ 2.svg);
+  background-color: #2e2e2e;
+  width: 16.2vw;
+  height: 42.4vh;
+  margin: 1rem;
+  border: solid 0.1rem #3e3e3e;
+  padding: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtitle2 {
+  font-size: 1rem;
+}
+.subtitle2 {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+}
+.cardCont2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.years2 {
+  font-size: 1rem;
+  border: solid 0.1rem #3e3e3e;
+  padding: 1rem;
+  background-color: #2e2e2e;
+}
+
+.card3 {
+  background-color: #2e2e2e;
+  width: 20vw;
+  height: 50vh;
+  margin: 1rem;
+}
+.innercard3 {
+  background-image: url(./Assets/Patrn\ 3.svg);
+  background-color: #2e2e2e;
+  width: 16.2vw;
+  height: 42.4vh;
+  margin: 1rem;
+  border: solid 0.1rem #3e3e3e;
+  padding: 1rem;
+  line-height: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtitle3 {
+  font-size: 1rem;
+}
+.subtitle3 {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+}
+.cardCont3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.years3 {
+  font-size: 1rem;
+  border: solid 0.1rem #3e3e3e;
+  padding: 1rem;
+  background-color: #2e2e2e;
+}
+
+.experties {
+  padding: 5rem 12rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.expertCont {
+  color: #565656;
+  width: 30vw;
+}
+
+.expertTitle {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.expertSubTitle {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.logoGrid {
+  display: grid;
+  grid-template-rows: 10rem 10rem 10rem;
+  grid-template-columns: 10rem 10rem 10rem 10rem;
+  grid-gap: 1rem;
+}
+
+.logo1 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo2 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo3 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo4 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo5 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo6 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo7 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo8 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo9 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo10 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo11 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo12 {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2e2e2e;
+  font-size: 1rem;
+  padding-left: 3rem;
+  margin: 0;
+}
+.logo12 p {
+  margin: 0;
+  padding: 0.3rem 0;
+}
+.certificates {
+  background-color: #373737;
+  padding: 5rem 15rem;
+}
+.certiCard {
+  background-color: #373737;
+  box-shadow: 0rem 0rem 5rem #272727;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  justify-content: center;
+  padding: 3rem 3rem;
+}
+.outline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #d9d9d9;
+  padding: 2rem;
+  border: solid 0.1rem #424242;
+}
+
+.myImg {
+  padding: 5rem 10rem;
+  color: #565656;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.myhead {
+  font-size: 4rem;
+}
+.myP {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.footer {
+  padding: 0 15rem 3rem;
+}

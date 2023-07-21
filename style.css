@@ -1,0 +1,179 @@
+/** @format */
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #9e148b, #300176);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  height: 100vh;
+}
+
+.title {
+  padding-top: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.contentHero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.aboutMe {
+  padding-top: 15rem;
+  color: white;
+  line-height: 4rem;
+  width: 30vw;
+}
+.line1 {
+  font-weight: 200;
+  font-size: 3rem;
+}
+.line2 {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.line3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.aboutbtn {
+  text-decoration: none;
+  background-color: #00092100;
+  color: white;
+  border: solid;
+  padding: 1.5rem 4rem;
+  font-size: 2.1rem;
+  font-weight: 200;
+  border-image: linear-gradient(to bottom right, #869ede, #869ede1a, #869ede00)
+    1;
+}
+
+.model {
+  margin-top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.menu {
+  text-align: right;
+  padding-top: 10rem;
+  width: 30vw;
+  padding-bottom: 10rem;
+}
+.menubtn {
+  color: white;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.menulink {
+  border: solid;
+  border-image: linear-gradient(to top left, #869ede, #869ede1a, #869ede00) 1;
+  line-height: 8rem;
+  text-align: center;
+  padding: 5rem;
+}
+.ui_ux {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+  position: relative;
+}
+
+.uiDiv a {
+  transition: 0.3s all;
+}
+.uiDiv a:hover {
+  font-weight: 500;
+  color: #869ede;
+}
+
+.ui_ux::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 0.2rem;
+  background-color: #869ede;
+  transition: width 0.3;
+}
+.ui_ux:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.three_d {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.threeDiv a {
+  transition: 0.3s all;
+}
+.threeDiv a:hover {
+  font-weight: 500;
+  color: #869ede;
+}
+
+.three_d::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 0.2rem;
+  background-color: #869ede;
+  transition: width 0.3;
+}
+.three_d:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+.packagings {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.pakgDiv a {
+  transition: 0.3s all;
+}
+.pakgDiv a:hover {
+  font-weight: 500;
+  color: #869ede;
+}
+.packagings::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 0.2rem;
+  background-color: #869ede;
+  transition: width 0.3;
+}
+.packagings:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
