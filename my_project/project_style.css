@@ -1,0 +1,175 @@
+/** @format */
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(./assets/BG.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.main {
+  width: 80vw;
+  text-align: center;
+  background: linear-gradient(#ffffff28, #4b60ae29);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: solid 0.1rem white;
+  padding: 3rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0;
+}
+.mainTital {
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.mainCard {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 50rem 23.5rem 50rem;
+  grid-template-rows: 50rem 50rem 50rem 50rem;
+  gap: 2rem;
+}
+.cardAncher1 {
+  margin: 0;
+  padding: 0;
+  width: 75.5rem;
+  grid-column: 1 / span 2;
+  position: relative;
+}
+
+.mainCard1::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+.mainCard1:hover::before {
+  width: 100%;
+}
+
+.mainCard1::after {
+  content: "CarSell";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.mainCard1:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+.mainCard2 {
+  height: 100%;
+  position: relative;
+}
+.mainCard2::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+.mainCard2:hover::before {
+  width: 100%;
+}
+.mainCard2::after {
+  content: "SecTech";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.mainCard2:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+.mainCard3 {
+  width: 50rem;
+  grid-column: 1 /2;
+}
+
+.cardAncher4 {
+  width: 75.5rem;
+  grid-column: span 2 / -1;
+}
+
+.mainCard7 {
+  grid-column: 1/2;
+}
+
+.mainCard3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardTital3 {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.cardP3 {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.mainCard6 {
+  grid-column: 3 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardTital6 {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.cardP6 {
+  text-align: right;
+  font-size: 1.5rem;
+}
+.card3D {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+.icon {
+  padding-left: 2rem;
+}
