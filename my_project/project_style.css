@@ -121,11 +121,151 @@ body {
 
 .cardAncher4 {
   width: 75.5rem;
+  height: 50rem;
   grid-column: span 2 / -1;
+  position: relative;
+}
+.mainCard4::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+.mainCard4:hover::before {
+  width: 100%;
 }
 
-.mainCard7 {
+.mainCard4::after {
+  content: "Motion Grinder";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.mainCard4:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.cardAncher5 {
+  position: relative;
+  width: 75.5rem;
+}
+
+.mainCard5::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+
+.mainCard5:hover::before {
+  width: 100%;
+}
+
+.mainCard5::after {
+  content: "Jobs Trends";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.mainCard5:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.cardAncher7 {
   grid-column: 1/2;
+  position: relative;
+}
+.mainCard7::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+
+.mainCard7:hover::before {
+  width: 100%;
+}
+.mainCard7::after {
+  content: "JBL";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.mainCard7:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.cardAncher8 {
+  position: relative;
+  width: 75.5rem;
+}
+
+.mainCard8::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+
+.mainCard8:hover::before {
+  width: 100%;
+}
+.mainCard8::after {
+  content: "The Crockery Store";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.mainCard8:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }
 
 .mainCard3 {
@@ -161,7 +301,9 @@ body {
 .cardP6 {
   text-align: right;
   font-size: 1.5rem;
+  position: relative;
 }
+
 .card3D {
   display: flex;
   flex-direction: row;
@@ -170,6 +312,77 @@ body {
   padding-bottom: 3rem;
   padding-top: 2rem;
 }
+
+.brain {
+  position: relative;
+  height: 50rem;
+}
+
+.brain::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+
+.brain:hover::before {
+  width: 100%;
+}
+.brain::after {
+  content: "Human Anatomy";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.brain:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
 .icon {
   padding-left: 2rem;
+  position: relative;
+  height: 50rem;
+  width: 60.7rem;
+}
+.icon::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(37, 37, 37, 0.156);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.5s;
+}
+
+.icon:hover::before {
+  width: 100%;
+}
+.icon::after {
+  content: "3D Icons";
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 4rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.icon:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }

@@ -34,6 +34,13 @@ body {
 .bold {
   font-weight: 700;
 }
+
+@media (min-width: 100rem) and (max-width: 120rem) {
+  .abtModel {
+    width: 50rem;
+    height: 50rem;
+  }
+}
 .connectCont {
   font-size: 1.1rem;
   font-weight: 300;
