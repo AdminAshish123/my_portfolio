@@ -21,8 +21,9 @@ body {
   color: #565656;
 }
 .abtCont {
-  width: 60vw;
+  width: 40rem;
 }
+
 .welcome {
   font-size: 1.5rem;
   font-size: 100;
@@ -35,12 +36,6 @@ body {
   font-weight: 700;
 }
 
-@media (min-width: 100rem) and (max-width: 120rem) {
-  .abtModel {
-    width: 50rem;
-    height: 50rem;
-  }
-}
 .connectCont {
   font-size: 1.1rem;
   font-weight: 300;
@@ -120,37 +115,42 @@ body {
 }
 .card1 {
   background-color: #2e2e2e;
-  width: 20vw;
-  height: 50vh;
+  width: 21rem;
+  height: 31rem;
+  position: relative;
   margin: 1rem;
 }
 .innercard1 {
   background-image: url(./Assets/Patern\ 1.svg);
   background-color: #2e2e2e;
-  width: 16.2vw;
-  height: 42.4vh;
-  margin: 1rem;
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: solid 0.1rem #3e3e3e;
   padding: 1rem;
-  line-height: 2rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  line-height: 3rem;
 }
 .cardtitle1 {
   font-size: 1rem;
 }
 .subtitle1 {
+  height: 3rem;
   font-size: 1rem;
   font-weight: 200;
+  line-height: 1.6rem;
 }
 .cardCont1 {
+  height: 8rem;
   font-size: 1rem;
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
 
 .years1 {
+  margin-top: 1rem;
   font-size: 1rem;
   border: solid 0.1rem #3e3e3e;
   padding: 1rem;
@@ -158,38 +158,43 @@ body {
 }
 .card2 {
   background-color: #2e2e2e;
-  width: 20vw;
-  height: 50vh;
+  width: 21rem;
+  height: 31rem;
+  position: relative;
   margin: 1rem;
 }
 .innercard2 {
   background-image: url(./Assets/Patern\ 2.svg);
   background-color: #2e2e2e;
-  width: 16.2vw;
-  height: 42.4vh;
-  margin: 1rem;
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: solid 0.1rem #3e3e3e;
   padding: 1rem;
-  line-height: 2rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  line-height: 3rem;
 }
+
 .cardtitle2 {
   font-size: 1rem;
 }
 .subtitle2 {
+  height: 3rem;
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.6rem;
 }
 .cardCont2 {
+  height: 8rem;
   font-size: 1rem;
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
 
 .years2 {
+  margin-top: 1rem;
   font-size: 1rem;
   border: solid 0.1rem #3e3e3e;
   padding: 1rem;
@@ -198,38 +203,42 @@ body {
 
 .card3 {
   background-color: #2e2e2e;
-  width: 20vw;
-  height: 50vh;
+  width: 21rem;
+  height: 31rem;
+  position: relative;
   margin: 1rem;
 }
 .innercard3 {
   background-image: url(./Assets/Patrn\ 3.svg);
   background-color: #2e2e2e;
-  width: 16.2vw;
-  height: 42.4vh;
-  margin: 1rem;
+  width: 80%;
+  height: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: solid 0.1rem #3e3e3e;
   padding: 1rem;
-  line-height: 2rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  line-height: 3rem;
 }
 .cardtitle3 {
   font-size: 1rem;
 }
 .subtitle3 {
+  height: 3rem;
   font-size: 1rem;
   font-weight: 200;
   line-height: 1.6rem;
 }
 .cardCont3 {
+  height: 8rem;
   font-size: 1rem;
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
 
 .years3 {
+  margin-top: 1rem;
   font-size: 1rem;
   border: solid 0.1rem #3e3e3e;
   padding: 1rem;
@@ -385,4 +394,45 @@ body {
 
 .footer {
   padding: 0 15rem 3rem;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .abtCont {
+    width: 25rem;
+  }
+  .abtModel {
+    padding-left: 2rem;
+    width: 40rem;
+    height: 60rem;
+  }
+  .card1 {
+    height: 33rem;
+    width: 24rem;
+  }
+  .card2 {
+    height: 33rem;
+    width: 24rem;
+  }
+  .card3 {
+    height: 33rem;
+    width: 24rem;
+  }
+  .cardCont1 {
+    height: 10rem;
+  }
+  .cardCont2 {
+    height: 10rem;
+  }
+  .cardCont3 {
+    height: 10rem;
+  }
+  .years1 {
+    margin-top: 3rem;
+  }
+  .years2 {
+    margin-top: 3rem;
+  }
+  .years3 {
+    margin-top: 3rem;
+  }
 }

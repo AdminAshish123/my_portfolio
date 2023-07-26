@@ -53,7 +53,7 @@ body {
   /* padding-top: 15rem; */
   color: white;
   line-height: 4rem;
-  width: 30vw;
+  width: 30rem;
 }
 .line1 {
   font-weight: 200;
@@ -88,7 +88,7 @@ body {
 .menu {
   text-align: right;
   padding-top: 10rem;
-  width: 30vw;
+  width: 30rem;
   padding-bottom: 10rem;
 }
 .menubtn {
