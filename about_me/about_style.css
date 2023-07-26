@@ -347,21 +347,35 @@ body {
   font-size: 1rem;
   padding-left: 3rem;
   margin: 0;
+  position: relative;
 }
 .logo12 p {
   margin: 0;
   padding: 0.3rem 0;
 }
+.pLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .certificates {
   background-color: #373737;
   padding: 5rem 15rem;
+  position: relative;
+  height: 90rem;
 }
 .certiCard {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 70vw;
   background-color: #373737;
   box-shadow: 0rem 0rem 5rem #272727;
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto;
+  grid-template-rows: 28rem 46rem;
+  grid-template-columns: 36rem 36rem;
   gap: 2rem;
   justify-content: center;
   padding: 3rem 3rem;
@@ -396,7 +410,7 @@ body {
   padding: 0 15rem 3rem;
 }
 
-@media (min-width: 1000px) and (max-width: 1300px) {
+@media (min-width: 1000px) and (max-width: 1500px) {
   .abtCont {
     width: 25rem;
   }
@@ -434,5 +448,43 @@ body {
   }
   .years3 {
     margin-top: 3rem;
+  }
+  .certificates {
+    height: 65rem;
+  }
+  .certiCard {
+    width: 85vw;
+  }
+  .logoGrid {
+    display: grid;
+    grid-template-rows: 7rem 7rem 7rem;
+    grid-template-columns: 7rem 7rem 7rem 7rem;
+    grid-gap: 1rem;
+  }
+  .logo12 p {
+    margin: 0;
+    padding: 0.1rem 0;
+  }
+  .certiCard {
+    grid-template-rows: 22rem 37rem;
+    grid-template-columns: 30rem 30rem;
+  }
+  .cerf {
+    width: 26rem;
+  }
+  .cerf3 {
+    width: 24rem;
+  }
+  .img {
+    width: 30rem;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .certificates {
+    height: 80rem;
+  }
+  .certiCard {
+    width: 80vw;
   }
 }
