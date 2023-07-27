@@ -6,6 +6,8 @@ html {
 }
 body {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
   position: relative;
 }
 .row {
@@ -29,5 +31,5 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 0px 50px #333796;
+  box-shadow: 0px 20px 60px #333796;
 }
