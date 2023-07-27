@@ -11,10 +11,10 @@ body {
   justify-content: center;
   background-image: url(./assets/BG.svg);
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: auto;
 }
 .main {
-  width: 80vw;
+  width: 85vw;
   text-align: center;
   background: linear-gradient(#ffffff28, #4b60ae29);
   backdrop-filter: blur(15px);
@@ -385,4 +385,183 @@ body {
 .icon:hover::after {
   opacity: 1;
   transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  body {
+    background-size: auto;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainCard {
+    grid-template-columns: 40rem 18rem 40rem;
+    grid-template-rows: 40rem 40rem 40rem 40rem;
+  }
+
+  .car {
+    height: 40rem;
+  }
+  .cardAncher1 {
+    height: 40rem;
+    width: 60.4rem;
+  }
+  .secTech {
+    height: 40rem;
+  }
+  .cardAncher2 {
+    height: 40rem;
+    width: 40rem;
+  }
+  .mainCard3 {
+    height: 40rem;
+    width: 40rem;
+  }
+  .motion {
+    height: 40rem;
+    width: 60.4rem;
+  }
+  .cardAncher4 {
+    height: 40rem;
+    width: 60.4rem;
+  }
+  .jobs {
+    height: 40rem;
+  }
+  .cardAncher5 {
+    height: 40rem;
+    width: 60.4rem;
+  }
+  .mainCard6 {
+    height: 40rem;
+    width: 40rem;
+  }
+  .jbl {
+    height: 40rem;
+  }
+  .cardAncher7 {
+    height: 40rem;
+    width: 40rem;
+  }
+  .crockStory {
+    height: 40rem;
+  }
+  .cardAncher8 {
+    height: 40rem;
+    width: 60.4rem;
+  }
+  .brain {
+    position: relative;
+    height: 40rem;
+    width: 50.24rem;
+  }
+  .brain3d {
+    height: 40rem;
+    width: 50.24rem;
+  }
+  .icon {
+    position: relative;
+    height: 40rem;
+    width: 50.24rem;
+  }
+  .icon3d {
+    height: 40rem;
+    width: 50.24rem;
+  }
+  .icon:hover::before {
+    width: 50.24rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  body {
+    background-size: auto;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainCard {
+    grid-template-columns: 35rem 16rem 35rem;
+    grid-template-rows: 35rem 35rem 35rem 35rem;
+    gap: 2rem;
+  }
+
+  .car {
+    height: 35rem;
+  }
+  .cardAncher1 {
+    height: 35rem;
+    width: 52.8rem;
+  }
+  .secTech {
+    height: 35rem;
+  }
+  .cardAncher2 {
+    height: 35rem;
+    width: 35rem;
+  }
+  .mainCard3 {
+    height: 35rem;
+    width: 35rem;
+  }
+  .motion {
+    height: 35rem;
+    width: 52.8rem;
+  }
+  .cardAncher4 {
+    height: 35rem;
+    width: 52.8rem;
+  }
+  .jobs {
+    height: 35rem;
+  }
+  .cardAncher5 {
+    height: 35rem;
+    width: 52.8rem;
+  }
+  .mainCard6 {
+    height: 35rem;
+    width: 35rem;
+  }
+  .jbl {
+    height: 35rem;
+  }
+  .cardAncher7 {
+    height: 35rem;
+    width: 35rem;
+  }
+  .crockStory {
+    height: 35rem;
+  }
+  .cardAncher8 {
+    height: 35rem;
+    width: 52.8rem;
+  }
+  .brain {
+    position: relative;
+    height: 35rem;
+    width: 43.96rem;
+  }
+  .brain3d {
+    height: 35rem;
+    width: 43.96rem;
+  }
+  .icon {
+    position: relative;
+    height: 35rem;
+    width: 43.96rem;
+  }
+  .icon3d {
+    height: 35rem;
+    width: 43.96rem;
+  }
+  .icon:hover::before {
+    width: 43.96rem;
+  }
 }
