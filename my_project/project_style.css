@@ -64,7 +64,7 @@ body {
 }
 
 .mainCard1::after {
-  content: "CarSell";
+  content: "Click To View";
   text-decoration: none;
   color: white;
   position: absolute;
@@ -72,7 +72,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -98,15 +98,15 @@ body {
   width: 100%;
 }
 .mainCard2::after {
-  content: "SecTech";
+  content: "Click To View";
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -117,6 +117,7 @@ body {
 .mainCard3 {
   width: 50rem;
   grid-column: 1 /2;
+  color: black;
 }
 
 .cardAncher4 {
@@ -140,7 +141,7 @@ body {
 }
 
 .mainCard4::after {
-  content: "Motion Grinder";
+  content: "Click To View";
   text-decoration: none;
   color: white;
   position: absolute;
@@ -148,7 +149,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -178,15 +179,15 @@ body {
 }
 
 .mainCard5::after {
-  content: "Jobs Trends";
+  content: "Click To View";
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -194,7 +195,9 @@ body {
   opacity: 1;
   transform: translate(-50%, -50%);
 }
-
+.mainCard6 {
+  color: black;
+}
 .cardAncher7 {
   grid-column: 1/2;
   position: relative;
@@ -214,7 +217,7 @@ body {
   width: 100%;
 }
 .mainCard7::after {
-  content: "JBL";
+  content: "Click To View";
   text-decoration: none;
   color: white;
   position: absolute;
@@ -222,7 +225,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -251,7 +254,7 @@ body {
   width: 100%;
 }
 .mainCard8::after {
-  content: "The Crockery Store";
+  content: "Click To View";
   text-decoration: none;
   color: white;
   position: absolute;
@@ -259,7 +262,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -333,7 +336,7 @@ body {
   width: 100%;
 }
 .brain::after {
-  content: "Human Anatomy";
+  content: "Click To View";
   text-decoration: none;
   color: white;
   position: absolute;
@@ -341,7 +344,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
@@ -370,7 +373,7 @@ body {
   width: 100%;
 }
 .icon::after {
-  content: "3D Icons";
+  content: "Click To View";
   text-decoration: none;
   color: white;
   position: absolute;
@@ -378,7 +381,7 @@ body {
   left: 50%;
   transform: translate(-50%, -40%);
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 100;
   opacity: 0;
   transition: 0.5s ease-in-out;
 }
