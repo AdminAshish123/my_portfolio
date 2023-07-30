@@ -13,7 +13,7 @@ body {
 }
 .middlePart {
   padding: 5rem;
-  background-color: black;
+  background-color: #071E32;
   color: white;
   display: flex;
   flex-direction: row;
