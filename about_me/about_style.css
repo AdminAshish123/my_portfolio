@@ -541,7 +541,7 @@ body {
   }
   .exCont {
     padding: 0;
-    text-align: start;
+    text-align: center;
   }
   .exCard {
     display: flex;
@@ -551,6 +551,36 @@ body {
     text-align: center;
     color: #e0e0e0;
     padding: 2rem 3rem;
+  }
+  .card1 {
+    background-color: #2e2e2e;
+    width: 18rem;
+    height: 31rem;
+    position: relative;
+    margin: 1rem;
+  }
+  .cardCont1 {
+    padding-bottom: 1.5rem;
+  }
+  .cardCont2 {
+    padding-bottom: 2rem;
+  }
+  .cardCont3 {
+    padding-bottom: 2rem;
+  }
+  .card2 {
+    background-color: #2e2e2e;
+    width: 18rem;
+    height: 31rem;
+    position: relative;
+    margin: 1rem;
+  }
+  .card3 {
+    background-color: #2e2e2e;
+    width: 18rem;
+    height: 31rem;
+    position: relative;
+    margin: 1rem;
   }
 
   /* experties */
@@ -613,7 +643,6 @@ body {
     display: none;
   }
   .certificates1 {
-    padding: 15rem auto;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -621,9 +650,10 @@ body {
     align-items: center;
     background-color: #373737;
     color: white;
+    padding: 5rem 0;
   }
   .outline1 {
-    width: 75vw;
+    width: 70vw;
     text-align: center;
     border: solid 0.1rem rgb(91, 91, 91);
     margin: 1rem;
@@ -646,6 +676,6 @@ body {
     width: 20rem;
   }
   .footer {
-    padding: 0;
+    padding: 0 3rem;
   }
 }
