@@ -670,7 +670,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
   }
   .myImg div img {
     width: 20rem;
