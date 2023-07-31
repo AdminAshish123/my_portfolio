@@ -11,6 +11,12 @@
     <div class="model">
       <canvas id="canvas3d"></canvas>
     </div>
+    <div class="mobMoel">
+      <div class="model1">
+        <canvas id="canvas3"></canvas>
+      </div>
+    </div>
+
     <div class="middlePart">
       <div class="abtMe">
         <p>Let Me Tell You</p>
@@ -24,9 +30,16 @@
 
     <script type="module">
       import { Application } from "./runtime.js";
+      import { Application2 } from "./runtime1.js";
+
       const canvas = document.getElementById("canvas3d");
+
       const app = new Application(canvas);
       app.load("./scene.splinecode");
+
+      const canvas2 = document.getElementById("canvas3");
+      const app2 = new Application2(canvas2);
+      app2.load("./scene.splinecode1");
     </script>
   </body>
 </html>

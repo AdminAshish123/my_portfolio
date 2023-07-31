@@ -11,9 +11,15 @@ body {
   height: 100vh;
   background-color: rgb(0, 0, 0);
 }
+.mobMoel {
+  display: none;
+}
+.model1 {
+  display: none;
+}
 .middlePart {
   padding: 5rem;
-  background-color: #071E32;
+  background-color: #071e32;
   color: white;
   display: flex;
   flex-direction: row;
@@ -83,4 +89,28 @@ body {
   padding: 1rem 3rem;
   background-color: rgb(132, 187, 255);
   font-weight: 400;
+}
+@media (min-width: 200px) and (max-width: 500px) {
+  body {
+    background-color: #071e32;
+    width: auto;
+  }
+  .model {
+    display: none;
+  }
+  .mobMoel {
+    display: block;
+    width: 100vw;
+  }
+  .model1 {
+    display: flex;
+    justify-content: center;
+  }
+  .middlePart {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
