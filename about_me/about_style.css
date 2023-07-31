@@ -488,3 +488,133 @@ body {
     width: 80vw;
   }
 }
+
+@media (min-width: 200px) and (max-width: 500px) {
+  .abtModel {
+    display: none;
+  }
+  .about_hero {
+    padding: 1rem 3rem;
+  }
+  .contcatCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .contactIcon {
+    margin-top: 2rem;
+  }
+  .emailCall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2rem;
+  }
+  .email p {
+    margin: 0.2;
+  }
+  .call {
+    padding: 0;
+  }
+  .call p {
+    margin: 0;
+  }
+  .cvBtn {
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  /* .experience */
+
+  .experience {
+    padding-top: 4rem;
+    padding: 2rem 3rem;
+  }
+  .exCont {
+    padding: 0;
+    text-align: start;
+  }
+  .exCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #e0e0e0;
+    padding: 2rem 10rem;
+  }
+
+  /* experties */
+  .experties {
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .expertCont {
+    width: 80vw;
+    padding: 0 3rem;
+  }
+  .logoGrid {
+    display: grid;
+    grid-template-rows: 6rem 6rem 6rem 6rem;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-gap: 1rem;
+  }
+  .logo1 img {
+    width: 2rem;
+  }
+  .logo2 img {
+    width: 2.6rem;
+  }
+  .logo3 img {
+    width: 2.7rem;
+  }
+  .logo4 img {
+    width: 2.6rem;
+  }
+  .logo5 img {
+    width: 2.6rem;
+  }
+  .logo6 img {
+    width: 2.6rem;
+  }
+  .logo7 img {
+    width: 2.6rem;
+  }
+  .logo8 img {
+    width: 2.3rem;
+  }
+  .logo9 img {
+    width: 2.3rem;
+  }
+  .logo10 img {
+    width: 2.3rem;
+  }
+  .logo11 img {
+    width: 2.6rem;
+  }
+  .logo12 p {
+    padding: 0;
+  }
+
+  /* cetificates */
+  .certificates {
+    display: none;
+  }
+  .certificates1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .outline1 {
+    width: 5rem;
+  }
+  .outline1 img {
+    width: 20rem;
+  }
+}
