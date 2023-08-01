@@ -1,0 +1,22 @@
+/** @format */
+body {
+  box-sizing: border-box;
+  padding: 5rem 1rem;
+  margin: 0;
+  background-color: rgb(33, 33, 33);
+  width: 100vw;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 70vw;
+  padding: 1rem 0;
+}
+.video {
+  width: 70vw;
+  padding: 1rem 0;
+}
