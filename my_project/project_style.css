@@ -28,6 +28,9 @@ body {
   align-items: center;
   margin: 6rem 0;
 }
+.mobView {
+  display: none;
+}
 .mainTital {
   padding-top: 2rem;
   font-size: 3rem;
@@ -404,6 +407,9 @@ body {
     grid-template-columns: 40rem 18rem 40rem;
     grid-template-rows: 40rem 40rem 40rem 40rem;
   }
+  .mobView {
+    display: none;
+  }
 
   .car {
     height: 40rem;
@@ -482,6 +488,7 @@ body {
 @media (min-width: 1000px) and (max-width: 1200px) {
   body {
     background-size: auto;
+    background-repeat: repeat;
   }
   .main {
     display: flex;
@@ -493,6 +500,9 @@ body {
     grid-template-columns: 35rem 16rem 35rem;
     grid-template-rows: 35rem 35rem 35rem 35rem;
     gap: 2rem;
+  }
+  .mobView {
+    display: none;
   }
 
   .car {
@@ -566,5 +576,41 @@ body {
   }
   .icon:hover::before {
     width: 43.96rem;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  body {
+    box-sizing: border-box;
+    background-repeat: repeat;
+  }
+  .main {
+    width: 70vw;
+    margin: 2rem 0;
+  }
+  .mainTital {
+    padding: 0;
+  }
+  .mainCard {
+    display: none;
+  }
+  .mobView {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: 1rem 0;
+  }
+  .carImg {
+    width: 80vw;
+  }
+  .secTech1 {
+    width: 80vw;
+  }
+  .threeDcont {
+    display: none;
+  }
+  .card3D {
+    display: none;
   }
 }
