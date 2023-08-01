@@ -20,3 +20,14 @@ body {
   width: 70vw;
   padding: 1rem 0;
 }
+@media (min-width: 200px) and (max-width: 500px) {
+  body {
+    padding: 1rem 1rem;
+  }
+  .img {
+    padding: 1rem 0;
+  }
+  .video {
+    padding: 1rem 0;
+  }
+}
